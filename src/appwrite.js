@@ -6,7 +6,7 @@ const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID;
 
 const client = new Client()
     .setEndpoint('https://sgp.cloud.appwrite.io/v1') // Appwrite Endpoint
-    .setProject('6a21e1cc003ab0376d13'); // Project ID
+    .setProject(PROJECT_ID); // Project ID
 
 const databases = new Databases(client);
 
